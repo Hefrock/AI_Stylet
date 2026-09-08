@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Stylet</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0;
+    padding: 48px 20px 80px;
+    background: #faf9f5;
+    color: #141413;
+    font: 16px/1.6 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14171c; color: #e9e7df; }
+    a { color: #d9a860; }
+    .card { background: #1b1f27; border-color: #2a2f3a; }
+    .muted { color: #8890a3; }
+  }
+  a { color: #9c6423; }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  .tagline { margin: 0 0 32px; color: #4c483e; }
+  .card {
+    border: 1px solid #dbd7cb;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 16px;
+    background: #fff;
+  }
+  .card h2 { margin: 0 0 6px; font-size: 16px; }
+  .card p { margin: 0; font-size: 14px; }
+  .muted { color: #726e63; font-size: 13px; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>AI Stylet</h1>
+  <p class="tagline">An audio digest at the intersection of healthcare and AI.</p>
+
+  <div class="card">
+    <h2>Subscribe</h2>
+    <p>Paste this feed URL into any podcast app: <code>feed.xml</code> (relative to this page).</p>
+  </div>
+
+  <div class="card">
+    <h2>No episodes yet</h2>
+    <p class="muted">This show hasn't published its first episode. Once it does, <code>feed.xml</code> and the audio files under <code>episodes/</code> will appear here automatically.</p>
+  </div>
+</div>
+</body>
+</html>
